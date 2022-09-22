@@ -1,0 +1,1 @@
+sam build && sam local generate-event s3 put --bucket "covenants-deed-images" --key "ocr/hits/wi-milwaukee-county/17760704/00673792_NOTINDEX_0002.json" | sam local invoke -e -
